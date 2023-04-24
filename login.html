@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8"/>
+<title>login.html</title>
+</head>
+
+<style type="text/css">
+
+html, body
+{
+height: 100%;
+width: 100%;
+
+}
+
+
+body{
+	background-image: url(gif.gif);
+	background-repeat: no-repeat; 
+	background-size: 100% 100%;
+
+
+     font-family: Courier New;
+}
+
+.teste1{
+	display: flex;
+    justify-content: center;
+    color: white; 
+}
+
+.teste2{
+	display: flex;
+    justify-content: center;
+    color: white; 
+}
+
+.teste3{
+	position: relative;
+    transform: translateY(50%); 
+	border-style: solid;
+	border-width: 5px;
+	border-radius: 10px;
+	width: 300px;
+	background: transparent;
+	
+
+
+}
+.teste4{
+	padding: 3px;
+    font-family: Arial;
+    color: white;
+    background-color: #90AFB6;
+    border-radius: 5px;
+    width: 100%;
+}
+.teste5{
+	justify-content: left;
+}
+button:hover{
+	cursor: white;
+    box-shadow: 2px 2px 2px
+}
+
+</style>
+
+<script type="text/javascript">
+	function teste()
+	{
+
+var a = document.getElementById("Usuario_input").value;
+var b = document.getElementById("Senha_input").value;
+
+if ( a == "admin" & b == 123)
+{
+	alert("só vitoria!");
+}
+else
+{
+	alert("só derrota");
+}
+
+}
+
+
+
+</script>
+
+<body>
+
+<di
+ <div class="teste2">
+  <div class="teste3">
+	 <div class="teste1">
+	 <h3>Login</h3>
+	 </div>
+
+   <div class="teste2">
+	 <form> 
+		 <h4>Usuario:</h4>
+		 <input type="text" placeholder="Nome" id="Usuario_input">
+	 </form>
+   </div>
+
+   <div class="teste2">
+	 <form> 
+		 <h4>Senha:</h4>
+	 	 <input type="password" placeholder="Senha" id="Senha_input">
+ 	 </form>
+   </div>
+
+
+   <div class="teste2">
+   	<br>
+     <div class="teste6">
+ 	<button class="teste4" onclick="teste()">Entrar</button>
+     </div>
+
+   </div>
+  </div>
+ </div>
+
+
+
+
+<script type="text/javascript">
+	
+	function teste()
+	{
+		window.location.href = "index.html";
+	}
+
+</script>
+
+	
+</body>
+</html>
